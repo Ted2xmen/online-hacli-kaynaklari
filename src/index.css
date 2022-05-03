@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: bisque;
+}
+.counter {
+  @apply font-mono text-center text-4xl text-green-400 dark:text-green-400;
+}
+
+.title {
+  @apply font-semibold text-5xl text-center text-gray-300;
+}
+
+.gradient {
+  @apply rounded-lg bg-gradient-to-r from-slate-600 via-slate-700 to-slate-800 shadow-lg;
+}
