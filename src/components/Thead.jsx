@@ -3,7 +3,7 @@ import React from 'react'
 const Thead = () => {
   return (
     <thead>
-      <tr className="text-md border-b border-gray-600 bg-gray-100 text-left font-semibold uppercase tracking-wide text-gray-900">
+      <tr className="text-md border-b border-red-900 bg-gray-800 text-left font-semibold uppercase tracking-wide text-gray-200">
         <th className="px-4 py-3">Yazar</th>
         <th className="px-4 py-3">Eser / Tür</th>
         <th className="px-4 py-3">Periyod</th>

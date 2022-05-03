@@ -1,9 +1,8 @@
-import Counter from './Counter'
-import Nav from '../pages/Nav'
+
 
 const AppContainer = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 py-32 lg:flex lg:h-screen lg:items-center bg-blue-50">
+    <div className="max-w-screen-xl mx-auto px-4 py-16 lg:flex lg:h-screen lg:items-center bg-blue-50">
       <div className="mx-auto max-w-xl text-center">
         <h1 className="text-6xl font-extrabold sm:text-5xl">
           Online Haçlı Kaynakları Projesi
@@ -17,14 +16,14 @@ const AppContainer = () => {
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a
             className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
-            href="/get-started">
-            Academia
+            href="/">
+            Anasayfa
           </a>
 
           <a
             className="block w-full rounded px-12 py-3 text-sm font-medium text-red-600 shadow hover:text-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
             href="/about">
-            Twitter
+            Hakkında
           </a>
         </div>
       </div>

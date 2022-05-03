@@ -1,21 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Thead from './Thead'
 import TrComponent from './TrComponent'
+import Search from './Search'
+
 
 import data from '.././data.json'
 
 const TheTable = () => {
+
+        const [searchTerm, setSearchTerm ] = useState("")
+        console.log(searchTerm)
+     
+
   return (
     <div>
-      <section className="container mx-auto p-6 font-mono">
-        <div className="mb-8 w-full overflow-hidden rounded-lg shadow-lg">
-          <div className="w-full overflow-x-auto">
+      <section className="container mx-auto p-6">
+        <div className="mb-8 w-full overflow-hidden rounded-lg ">
+          <Search setSearchTerm={setSearchTerm} />
+
+          <div className="w-full overflow-x-auto shadow-lg">
             <table className="w-full">
               <Thead />
-              <tbody className="bg-white">
-                {data.map((item) => (
+              <tbody className="divide-y-2 bg-gray-50">
+                {data.map((item, index ) => (
                   <TrComponent
-                    key={item.name}
+                    key={index}
+                    lang={item.lang}
                     name={item.name}
                     eser={item.eser}
                     katki={item.katki}
@@ -23,6 +33,7 @@ const TheTable = () => {
                     periyod={item.periyod}
                     dil={item.dil}
                     edisyon={item.edisyon}
+                    translate={item.translate}
                   />
                 ))}
               </tbody>
