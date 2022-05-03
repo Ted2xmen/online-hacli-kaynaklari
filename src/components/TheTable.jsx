@@ -18,10 +18,14 @@ const TheTable = () => {
               <Thead />
               <tbody className="divide-y-2 bg-gray-50">
                 {data
-                  .filter((filtered) =>
-                    filtered.name
-                      .toLowerCase()
-                      .includes(searchTerm.toLowerCase())
+                  .filter(
+                    (filtered) =>
+                      filtered.name
+                        .toLowerCase()
+                        .includes(searchTerm.toLowerCase()) ||
+                      filtered.eser
+                        .toLowerCase()
+                        .includes(searchTerm.toLowerCase())
                   )
                   .map((item, index) => (
                     <TrComponent
