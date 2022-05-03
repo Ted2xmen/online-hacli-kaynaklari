@@ -12,7 +12,7 @@ const Search = ({ setSearchTerm }) => {
         <input
           className="w-full rounded-lg border-2 py-4 pl-3 pr-16 text-sm"
           type="text"
-          placeholder="Yazar Adına Göre Ara..."
+          placeholder="Yazar veya Eser Adına Göre Ara..."
           onChange={submitSearchTerm}
         />
 

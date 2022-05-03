@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Thead from './Thead'
 import TrComponent from './TrComponent'
 import Search from './Search'
-
 import data from '.././data.json'
 
 const TheTable = () => {

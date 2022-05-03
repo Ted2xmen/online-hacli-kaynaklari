@@ -21,7 +21,7 @@ const TrComponent = (data) => {
       </td>
       <td className="px-4 py-3 text-base ">{eser}</td>
       <td className="px-4 py-3 text-xs">
-        <span className="rounded-sm bg-green-100 px-2 py-1 font-semibold leading-tight text-green-700">
+        <span className="rounded-sm bg-indigo-100 p-2 font-semibold leading-tight text-indigo-700">
           {periyod}
         </span>
       </td>

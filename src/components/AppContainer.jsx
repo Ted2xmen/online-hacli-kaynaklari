@@ -1,6 +1,6 @@
 const AppContainer = () => {
   return (
-    <div className="max-w-screen-xl mx-auto bg-blue-50 px-4 py-4 lg:flex lg:h-screen lg:items-center">
+    <div className="max-w-screen-xl mx-auto bg-blue-50 px-4 py-24 lg:flex lg:h-screen lg:items-center">
       <div className="mx-auto max-w-xl text-center">
         <h1 className="text-6xl font-extrabold sm:text-5xl">
           Online Haçlı Kaynakları Projesi
