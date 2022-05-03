@@ -38,7 +38,128 @@
       }
     ],
     "katki": ["Şafak Efe", "Abdurrahman Onur Çalışır"]
+  },
+
+  {
+    "name": "Beta",
+    "lang": [
+      {
+        "eng": "Albert of Aachen",
+        "fr": "Albert d'Axis",
+        "de": "Albert von Aachen"
+      }
+    ],
+    "eser": "Lerosolimitana",
+    "tur": "Kronik",
+    "periyod": "1095-1120",
+    "bolge": ["Anadolu", "Balkanlar", "Filistin", "Mısır", "Suriye"],
+    "dil": "Latince",
+    "edisyon": [
+      {
+        "name": "PL 166",
+        "link": "https://archive.org/details/patrologiaecurs11goog"
+      },
+      {
+        "name": "RHC HOc 4 Edgington",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      }
+    ],
+    "translate": [
+      {
+        "durum": "TR Kısmen",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      },
+      {
+        "durum": "ING Tamamen",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      },
+      {
+        "durum": "ING Tamamen",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      }
+    ],
+    "katki": ["Şafak Efe", "Abdurrahman Onur Çalışır"]
+  },
+
+  {
+    "name": "Theta",
+    "lang": [
+      {
+        "eng": "Albert of Aachen",
+        "fr": "Albert d'Axis",
+        "de": "Albert von Aachen"
+      }
+    ],
+    "eser": "Lerosolimitana",
+    "tur": "Kronik",
+    "periyod": "1095-1120",
+    "bolge": ["Anadolu", "Balkanlar", "Filistin", "Mısır", "Suriye"],
+    "dil": "Latince",
+    "edisyon": [
+      {
+        "name": "PL 166",
+        "link": "https://archive.org/details/patrologiaecurs11goog"
+      },
+      {
+        "name": "RHC HOc 4 Edgington",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      }
+    ],
+    "translate": [
+      {
+        "durum": "TR Kısmen",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      },
+      {
+        "durum": "ING Tamamen",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      },
+      {
+        "durum": "ING Tamamen",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      }
+    ],
+    "katki": ["Şafak Efe", "Abdurrahman Onur Çalışır"]
+  },
+
+  {
+    "name": "Albertus",
+    "lang": [
+      {
+        "eng": "Albert of Aachen",
+        "fr": "Albert d'Axis",
+        "de": "Albert von Aachen"
+      }
+    ],
+    "eser": "Lerosolimitana",
+    "tur": "Kronik",
+    "periyod": "1095-1120",
+    "bolge": ["Anadolu", "Balkanlar", "Filistin", "Mısır", "Suriye"],
+    "dil": "Latince",
+    "edisyon": [
+      {
+        "name": "PL 166",
+        "link": "https://archive.org/details/patrologiaecurs11goog"
+      },
+      {
+        "name": "RHC HOc 4 Edgington",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      }
+    ],
+    "translate": [
+      {
+        "durum": "TR Kısmen",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      },
+      {
+        "durum": "ING Tamamen",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      },
+      {
+        "durum": "ING Tamamen",
+        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+      }
+    ],
+    "katki": ["Şafak Efe", "Abdurrahman Onur Çalışır"]
   }
- 
- 
 ]
