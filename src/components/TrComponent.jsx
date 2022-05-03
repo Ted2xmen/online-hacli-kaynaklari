@@ -19,23 +19,24 @@ const TrComponent = (data) => {
           </div>
         </div>
       </td>
-      <td className="s px-4 py-3 text-base ">{eser}</td>
-      <td className=" px-4 py-3 text-xs">
+      <td className="px-4 py-3 text-base ">{eser}</td>
+      <td className="px-4 py-3 text-xs">
         <span className="rounded-sm bg-green-100 px-2 py-1 font-semibold leading-tight text-green-700">
           {periyod}
         </span>
       </td>
       <td className=" px-4 py-3 text-sm">
         {bolge.map((item, index) => (
-          <p key={index} >{item}</p>
+          <p key={index}>{item}</p>
         ))}
       </td>
       <td className=" px-4 py-3 text-sm">{dil}</td>
 
       <td className=" px-4 py-3 text-sm">
         {edisyon.map((item, index) => (
-          <p  className="py-1">
-            <a key={index}
+          <p className="py-1">
+            <a
+              key={index}
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 underline"
@@ -50,7 +51,12 @@ const TrComponent = (data) => {
         {translate.map((item, index) => (
           <div className="ml-2 pt-2">
             <span className="block">
-              <a key={index} className='text-blue-500 underline' href={item.link}>{item.durum} </a>
+              <a
+                key={index}
+                className="text-blue-500 underline"
+                href={item.link}>
+                {item.durum}{' '}
+              </a>
             </span>
           </div>
         ))}
@@ -58,7 +64,7 @@ const TrComponent = (data) => {
 
       <td className=" px-4 py-3 text-sm">
         {katki.map((item, index) => (
-          <p key={index} >{item}</p>
+          <p key={index}>{item}</p>
         ))}
       </td>
     </tr>

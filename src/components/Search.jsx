@@ -1,17 +1,19 @@
 import React from 'react'
 
-const Search = (setSearchTerm) => {
+const Search = ({ setSearchTerm }) => {
+  const submitSearchTerm = (event) => {
+    setSearchTerm(event.target.value)
+  }
+
   return (
     <div className="py-4">
       <div className="relative">
         <label className="sr-only">Search</label>
         <input
-          className="w-full rounded-lg border-2  py-4 pl-3 pr-16 text-sm"
+          className="w-full rounded-lg border-2 py-4 pl-3 pr-16 text-sm"
           type="text"
-          placeholder="Search here"
-          onChange={(event) => {
-            setSearchTerm(event.target.value)
-          }}
+          placeholder="Yazar Adına Göre Ara..."
+          onChange={submitSearchTerm}
         />
 
         <button
