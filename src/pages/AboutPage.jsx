@@ -1,10 +1,10 @@
-import AppContainer from '../components/AppContainer'
+import HeaderHero from '../components/HeaderHero'
 import Footer from '../components/Footer'
 
 const AboutPage = () => {
   return (
     <>
-      <AppContainer />
+      <HeaderHero />
       <div className="mx-6 space-y-6 py-6 text-center text-lg lg:mx-24">
         <p>
           Haçlı çalışmaları alanında araştırmacılar tarafından kullanılan

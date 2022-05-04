@@ -1,11 +1,11 @@
-import AppContainer from '../components/AppContainer'
+import HeaderHero from '../components/HeaderHero'
 import TheTable from '../components/TheTable'
 import Footer from '../components/Footer'
 
 const HomePage = () => {
   return (
     <div className="space-y-8">
-      <AppContainer />
+      <HeaderHero />
       <TheTable />
       <Footer />
     </div>

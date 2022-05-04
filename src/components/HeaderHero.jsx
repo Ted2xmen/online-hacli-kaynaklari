@@ -1,4 +1,4 @@
-const AppContainer = () => {
+const HeaderHero = () => {
   return (
     <div className="max-w-screen-xl mx-auto bg-blue-50 px-4 py-24 lg:flex lg:h-screen lg:items-center">
       <div className="mx-auto max-w-xl text-center">
@@ -29,4 +29,4 @@ const AppContainer = () => {
   )
 }
 
-export default AppContainer
+export default HeaderHero

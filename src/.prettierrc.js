@@ -7,4 +7,3 @@ module.exports = {
   arrowParens: 'always', // always (x) => x - || avoid x => x
   bracketSpacing: true, // { foo: bar }
 }
-

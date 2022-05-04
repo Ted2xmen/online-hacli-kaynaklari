@@ -9,7 +9,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "format": "prettier --write \"{,!(node_modules)/**/}*.js\"",
+    "format": "prettier --write \"{,!(node_modules)/**/}*.jsx\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

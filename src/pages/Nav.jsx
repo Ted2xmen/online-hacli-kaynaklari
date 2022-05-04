@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <div className="flex space-x-4 ml-6 font-bold text-xl">
+    <div className="ml-6 flex space-x-4 text-xl font-bold">
       <Link to="/">Anasayfa </Link>
       <Link to="/about"> Hakkında</Link>
     </div>

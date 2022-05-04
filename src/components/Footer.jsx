@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div classNameName=" max-w-screen-xl h-24 bg-blue-50">
+    <div className=" max-w-screen-xl h-24 bg-blue-50">
       <footer className="text-center">
         <div className="max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl space-y-6">
@@ -11,10 +11,7 @@ const Footer = () => {
                 Anasayfa
               </a>
 
-              <a
-                className="hover:opacity-75"
-                href="/about"
-             >
+              <a className="hover:opacity-75" href="/about">
                 Hakkında
               </a>
 
