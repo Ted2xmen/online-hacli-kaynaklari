@@ -7,18 +7,18 @@ const Search = ({ setSearchTerm }) => {
   }
 
   return (
-    <div className="py-4">
+    <div className="py-8">
       <div className="relative">
         <label className="sr-only">Search</label>
         <input
-          className="w-full rounded-lg border-2 py-4 pl-3 pr-16 text-sm"
+          className="w-full rounded-lg  py-4 pl-3 pr-16 text-sm"
           type="text"
           placeholder="Yazar veya Eser Adına Göre Ara..."
           onChange={submitSearchTerm}
         />
 
         <button
-          className="absolute top-1/2 right-4 -translate-y-1/2 rounded-full bg-gray-600 p-2 text-white"
+          className="absolute top-1/2 right-4 -translate-y-1/2 rounded-full bg-slate-800 p-2 text-white"
           type="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"

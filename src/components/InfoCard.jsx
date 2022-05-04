@@ -1,30 +1,39 @@
 import React from 'react'
 
-const InfoCard = ({kronik, seyahatname, all}) => {
-
-
-
-
+const InfoCard = ({ kronik, seyahatname, all }) => {
   return (
-    <div>
+    <div className='hidden md:block lg:block xl:block'>
       <section className="text-center">
         <div className="mx-auto w-full py-2">
-          <ul className="grid grid-cols-3 gap-4 rounded-xl border-2 border-gray-600 lg:grid-cols-4">
-            <li className="p-4">
-              <p className="text-2xl font-extrabold text-blue-500">{all}</p>
-              <p className="mt-1 text-lg font-medium">Tümü</p>
+          <ul className="info-ul">
+            <li>
+              <p className="info-data">{all}</p>
+              <p className="info-title">Tümü</p>
             </li>
 
-            <li className="p-4">
-              <p className="text-2xl font-extrabold text-blue-500">{kronik}</p>
-              <p className="mt-1 text-lg font-medium">Kronikler</p>
+            <li>
+              <p className="info-data">{kronik}</p>
+              <p className="info-title">Kronik</p>
             </li>
 
-            <li className="p-4">
-              <p className="text-2xl font-extrabold text-blue-500">
-                {seyahatname}
-              </p>
-              <p className="mt-1 text-lg font-medium">Seyahatnameler</p>
+            <li>
+              <p className="info-data">{seyahatname}</p>
+              <p className="info-title">Seyahatname</p>
+            </li>
+
+            <li>
+              <p className="info-data">1000</p>
+              <p className="info-title">Mektup</p>
+            </li>
+
+            <li>
+              <p className="info-data">50</p>
+              <p className="info-title">Şiir</p>
+            </li>
+
+            <li>
+              <p className="info-data">100</p>
+              <p className="info-title">Hatırat</p>
             </li>
           </ul>
         </div>

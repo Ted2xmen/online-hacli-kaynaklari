@@ -5,12 +5,24 @@ const Filter = ({ setCategory }) => {
       value: 'all',
     },
     {
-      label: 'Kronikler',
+      label: 'Kronik',
       value: 'Seyahatname',
     },
     {
-      label: 'Seyahatnameler',
+      label: 'Seyahatname',
       value: 'Kronik',
+    },
+    {
+      label: 'Mektup',
+      value: 'Mektup',
+    },
+    {
+      label: 'Hatırat',
+      value: 'Hatırat',
+    },
+    {
+      label: 'Şiir',
+      value: 'Şiir',
     },
   ]
 
@@ -21,18 +33,16 @@ const Filter = ({ setCategory }) => {
   return (
     <div>
       <div className="flex justify-center">
-        <div className="mb-3 xl:w-96">
+        <div className="mb-3 ">
           <select
-            className="form-select m-0
+            className="form-select cursor-pointer m-0 px-6 xl:px-8
       
       w-full
       appearance-none
-      rounded
-      border
-      border-solid
-      border-gray-300
-      bg-white bg-clip-padding bg-no-repeat
-      px-3 py-1.5 text-base
+      rounded-lg
+      shadow-md
+      bg-slate-100  
+      py-4 mt-3 text-sm
       font-normal
       text-gray-700
       transition

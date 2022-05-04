@@ -18,14 +18,20 @@ const seyahatname = data.filter((f) => f.tur === 'Seyahatname')
     <div>
       <section className="container mx-auto p-6">
         <div className="mb-8 w-full overflow-hidden rounded-lg ">
-          <Filter setCategory={setCategory} />
-          <InfoCard kronik={kronik.length} seyahatname={seyahatname.length} all={data.length} />
+          <div className="flex sm:flex-wrap md:flex-wrap lg:flex-wrap md:space-x-2 justify-between items-center">
+            <Filter setCategory={setCategory} />
+            <InfoCard
+              kronik={kronik.length}
+              seyahatname={seyahatname.length}
+              all={data.length}
+            />
+          </div>
 
           <Search setSearchTerm={setSearchTerm} />
           <div className="w-full overflow-x-auto shadow-lg">
             <table className="w-full">
               <Thead />
-              <tbody className="divide-y-2 bg-gray-50">
+              <tbody className="divide-y-2">
                 {data
                   .filter((f) => (f.tur === category ? null : data))
                   .filter(
