@@ -4,11 +4,14 @@ import TrComponent from './TrComponent'
 import Search from './Search'
 import data from '.././data.json'
 import Filter from './Filter'
+import InfoCard from './InfoCard'
 
-const TheTable = ( ) => {
+const TheTable = () => {
   const [searchTerm, setSearchTerm] = useState('')
   const [category, setCategory] = useState('')
 
+const kronik = data.filter((f) => f.tur === 'Kronik')
+const seyahatname = data.filter((f) => f.tur === 'Seyahatname')
 
 
   return (
@@ -16,13 +19,15 @@ const TheTable = ( ) => {
       <section className="container mx-auto p-6">
         <div className="mb-8 w-full overflow-hidden rounded-lg ">
           <Filter setCategory={setCategory} />
+          <InfoCard kronik={kronik.length} seyahatname={seyahatname.length} all={data.length} />
+
           <Search setSearchTerm={setSearchTerm} />
           <div className="w-full overflow-x-auto shadow-lg">
             <table className="w-full">
               <Thead />
               <tbody className="divide-y-2 bg-gray-50">
                 {data
-                  .filter((f) => f.tur === category ? null : data )
+                  .filter((f) => (f.tur === category ? null : data))
                   .filter(
                     (filtered) =>
                       filtered.name
