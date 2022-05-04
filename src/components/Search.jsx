@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Search = ({ setSearchTerm }) => {
+  
   const submitSearchTerm = (event) => {
     setSearchTerm(event.target.value)
   }

@@ -3,15 +3,20 @@ import Thead from './Thead'
 import TrComponent from './TrComponent'
 import Search from './Search'
 import data from '.././data.json'
+import Filter from './Filter'
 
-const TheTable = () => {
+const TheTable = ( ) => {
   const [searchTerm, setSearchTerm] = useState('')
+  const [category, setCategory] = useState('')
+
+  console.log(category)
 
   return (
     <div>
       <section className="container mx-auto p-6">
         <div className="mb-8 w-full overflow-hidden rounded-lg ">
-          <Search setSearchTerm={setSearchTerm} searchTerm={searchTerm} />
+          <Filter setCategory={setCategory} />
+          <Search setSearchTerm={setSearchTerm} />
           <div className="w-full overflow-x-auto shadow-lg">
             <table className="w-full">
               <Thead />
@@ -32,6 +37,7 @@ const TheTable = () => {
                       lang={item.lang}
                       name={item.name}
                       eser={item.eser}
+                      tur={item.tur}
                       katki={item.katki}
                       bolge={item.bolge}
                       periyod={item.periyod}
