@@ -1,22 +1,16 @@
-
 const Filter = ({ setCategory }) => {
-    
   const options = [
     {
       label: 'Tümü',
-      value: 'Tümü',
+      value: 'all',
     },
     {
       label: 'Kronikler',
-      value: 'Kronikler',
+      value: 'Seyahatname',
     },
     {
       label: 'Seyahatnameler',
-      value: 'Seyahatnameler',
-    },
-    {
-      label: 'Other',
-      value: 'Other',
+      value: 'Kronik',
     },
   ]
 
@@ -47,7 +41,11 @@ const Filter = ({ setCategory }) => {
             aria-label="Default select example"
             onChange={handleFilter}>
             {options.map((option, index) => {
-              return <option value={option.value}>{option.label}</option>
+              return (
+                <option key={index} value={option.value}>
+                  {option.label}
+                </option>
+              )
             })}
           </select>
         </div>

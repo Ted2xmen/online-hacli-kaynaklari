@@ -9,7 +9,7 @@ const TheTable = ( ) => {
   const [searchTerm, setSearchTerm] = useState('')
   const [category, setCategory] = useState('')
 
-  console.log(category)
+
 
   return (
     <div>
@@ -22,6 +22,7 @@ const TheTable = ( ) => {
               <Thead />
               <tbody className="divide-y-2 bg-gray-50">
                 {data
+                  .filter((f) => f.tur === category ? null : data )
                   .filter(
                     (filtered) =>
                       filtered.name
