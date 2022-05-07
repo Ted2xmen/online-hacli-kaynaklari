@@ -6,7 +6,7 @@ const Thead = () => {
       <tr className="text-md  bg-slate-800  text-left font-semibold uppercase tracking-wide text-gray-100">
         <th className="px-4 py-3">Yazar</th>
         <th className="px-4 py-3">Eser</th>
-        <th className="px-4 py-3">Tür</th>
+        {/* <th className="px-4 py-3">Tür</th> */}
         <th className="px-4 py-3">Periyod</th>
         <th className="px-4 py-3">Bölge</th>
         <th className="px-4 py-3">Dil</th>

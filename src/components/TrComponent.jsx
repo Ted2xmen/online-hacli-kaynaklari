@@ -1,14 +1,24 @@
 import React from 'react'
 
 const TrComponent = (data) => {
-  const { name, lang, eser, katki, bolge, periyod, dil, edisyon, translate, tur } =
-    data
+  const {
+    name,
+    lang,
+    eser,
+    katki,
+    bolge,
+    periyod,
+    dil,
+    edisyon,
+    translate,
+    tur,
+  } = data
   return (
-    <tr className="text-gray-700 hover:bg-gray-100">
-      <td className=" px-4 py-3">
+    <tr className="text-gray-700 hover:bg-gray-100 ">
+      <td className=" px-1 py-3">
         <div className="flex items-center text-sm">
           <div>
-            <p className="text-lg font-semibold uppercase text-black">{name}</p>
+            <p className="text-base font-bold uppercase text-black">{name}</p>
             {lang.map((item, index) => (
               <div key={index} className="ml-2 pt-2">
                 <span className="block">🏴󠁧󠁢󠁥󠁮󠁧󠁿 {item.eng}</span>
@@ -19,22 +29,29 @@ const TrComponent = (data) => {
           </div>
         </div>
       </td>
-      <td className="px-4 py-3 text-base">{eser}</td>
-      <td className="px-2 py-3 text-base">{tur}</td>
+      <td className="px-1 py-3">
+        {eser}
+        <span className="ml-2 inline-block rounded-sm bg-yellow-300 p-1 text-xs text-black">
+          {tur}
+        </span>
+      </td>
+      {/* <td className=" py-3 text-xs"></td> */}
 
-      <td className="px-3 py-3 text-xs">
+      <td className="px-1 py-3 text-xs">
         <span className="rounded-sm bg-indigo-100 p-1 font-semibold leading-tight text-indigo-700">
           {periyod}
         </span>
       </td>
-      <td className=" px-3 py-3 text-sm">
+      <td className=" px-1 py-3 text-sm">
         {bolge.map((item, index) => (
           <p key={index}>{item}</p>
         ))}
       </td>
-      <td className=" px-3 py-3 text-sm">{dil}</td>
+      <td className=" px-1 py-3 text-xs">
+        <span className='border border-black p-1 rounded-full text-xs'>{dil}</span>
+      </td>
 
-      <td className=" px-3 py-3 text-sm">
+      <td className=" px-2 py-3 text-sm">
         {edisyon.map((item, index) => (
           <p className="py-1">
             <a
@@ -49,22 +66,24 @@ const TrComponent = (data) => {
         ))}
       </td>
 
-      <td className=" px-3 py-3 text-sm">
-        {translate.map((item, index) => (
-          <div className="ml-2 pt-2">
-            <span className="block">
-              <a
-                key={index}
-                className="text-blue-500 underline"
-                href={item.link}>
-                {item.durum}{' '}
-              </a>
-            </span>
-          </div>
-        ))}
-      </td>
+      <div className="max-h-40 overflow-y-auto  ">
+        <td className="   py-2 text-sm">
+          {translate.map((item, index) => (
+            <div className="ml-2 pt-1 ">
+              <span className="">
+                <a
+                  key={index}
+                  className="m-1 block p-1 text-blue-500 "
+                  href={item.link}>
+                  {item.durum}{' '}
+                </a>
+              </span>
+            </div>
+          ))}
+        </td>
+      </div>
 
-      <td className=" px-3 py-3 text-sm">
+      <td className="  py-3 text-xs">
         {katki.map((item, index) => (
           <p key={index}>{item}</p>
         ))}

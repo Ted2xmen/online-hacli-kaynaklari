@@ -19,6 +19,8 @@ const [apiData, setData] = useState([])
      `https://onlinehaclikaynaklari.github.io/hacli-kaynaklari-projesi-verileri/data.json`
    )
    setData(apiData.data)
+      // setData(data)
+
  } 
 console.log(apiData.data)
    useEffect(() => {
