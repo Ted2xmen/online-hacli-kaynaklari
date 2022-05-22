@@ -1,6 +1,6 @@
 import React from 'react'
 
-const InfoCard = ({ kronik, seyahatname, all }) => {
+const InfoCard = ({ kronik, seyahatname, all, mektup, siir, hatirat }) => {
   return (
     <div className='hidden md:block lg:block xl:block'>
       <section className="text-center">
@@ -22,17 +22,17 @@ const InfoCard = ({ kronik, seyahatname, all }) => {
             </li>
 
             <li>
-              <p className="info-data">1000</p>
+              <p className="info-data">{mektup}</p>
               <p className="info-title">Mektup</p>
             </li>
 
             <li>
-              <p className="info-data">50</p>
+              <p className="info-data">{siir}</p>
               <p className="info-title">Şiir</p>
             </li>
 
             <li>
-              <p className="info-data">100</p>
+              <p className="info-data">{hatirat}</p>
               <p className="info-title">Hatırat</p>
             </li>
           </ul>

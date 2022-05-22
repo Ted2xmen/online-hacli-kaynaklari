@@ -11,20 +11,22 @@ const HeaderHero = () => {
           edinmiş bağımsız bir projedir.
         </p>
 
-        <div className="mt-8   space-x-6 justify-center gap-4">
+        <div className="space-x-6">
           <a
-            className=" w-full rounded bg-blue-800 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700  sm:w-auto"
-            href="/">
-            Anasayfa
+            className=" rounded-lg p-2 shadow hover:bg-blue-600 hover:text-white "
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://twitter.com/haclikaynaklari">
+            Twitter
           </a>
 
           <a
-            className=" w-full rounded px-12 py-3 text-sm font-medium text-blue-800 shadow hover:text-blue-700  sm:w-auto"
-            href="/about">
-            Hakkında
+            className=" rounded-lg p-2 shadow hover:bg-blue-600 hover:text-white "
+            href="https://www.academia.edu/50159258/ONL%C4%B0NE_HA%C3%87LI_KAYNAKLARI_PROJES%C4%B0"
+            target="_blank"
+            rel="noopener noreferrer">
+            Academia.edu
           </a>
-
-          
         </div>
       </div>
     </div>

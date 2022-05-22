@@ -6,23 +6,11 @@ const Filter = ({ setCategory }) => {
     },
     {
       label: 'Kronik',
-      value: 'Seyahatname',
-    },
-    {
-      label: 'Seyahatname',
-      value: 'Kronik',
-    },
-    {
-      label: 'Mektup',
-      value: 'Mektup',
-    },
-    {
-      label: 'Hatırat',
-      value: 'Hatırat',
+      value: 'Şiir',
     },
     {
       label: 'Şiir',
-      value: 'Şiir',
+      value: 'Kronik',
     },
   ]
 

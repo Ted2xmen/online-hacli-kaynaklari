@@ -6,13 +6,17 @@ const Footer = () => {
       <footer className="text-center">
         <div className="max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl space-y-6">
-            <nav className="relative flex flex-wrap justify-center gap-8 rounded-lg  shadow-md bg-slate-100  p-8 text-sm font-semibold">
+            <nav className="relative flex flex-wrap justify-center gap-8 rounded-lg  bg-slate-100 p-8  text-sm font-semibold shadow-md">
               <a className="hover:opacity-75" href="/">
                 Anasayfa
               </a>
 
-              <a className="hover:opacity-75" href="/about">
-                Hakkında
+              <a
+                className="hover:opacity-75"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/haclikaynaklari">
+                Twitter
               </a>
 
               <a

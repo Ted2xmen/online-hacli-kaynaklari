@@ -5,31 +5,28 @@ import Search from './Search'
 import data from '.././data.json'
 import Filter from './Filter'
 import InfoCard from './InfoCard'
-import axios from "axios";
+import axios from 'axios'
 
 const TheTable = () => {
   const [searchTerm, setSearchTerm] = useState('')
   const [category, setCategory] = useState('')
-const [apiData, setData] = useState([])
+  const [apiData, setData] = useState([])
 
+  const getData = async () => {
+    const apiData = await axios.get(
+      `https://onlinehaclikaynaklari.github.io/hacli-kaynaklari-projesi-verileri/data.json`
+    )
+    setData(apiData.data)
+  }
+  useEffect(() => {
+    getData()
+  }, [])
 
-
- const getData = async () => {
-   const apiData = await axios.get(
-     `https://onlinehaclikaynaklari.github.io/hacli-kaynaklari-projesi-verileri/data.json`
-   )
-   setData(apiData.data)
-      // setData(data)
-
- } 
-console.log(apiData.data)
-   useEffect(() => {
-     getData()
-   }, [])
-
-
-   const kronik = apiData.filter((f) => f.tur === 'Kronik')
-   const seyahatname = apiData.filter((f) => f.tur === 'Seyahatname')
+  const kronik = apiData.filter((f) => f.tur === 'Kronik')
+  const seyahatname = apiData.filter((f) => f.tur === 'Seyahatname')
+  const siir = apiData.filter((f) => f.tur === 'Şiir')
+  const mektup = apiData.filter((f) => f.tur === 'Mektup')
+  const hatirat = apiData.filter((f) => f.tur === 'Hatırat')
 
   return (
     <div>
@@ -38,9 +35,12 @@ console.log(apiData.data)
           <div className="flex items-center justify-between sm:flex-wrap md:flex-wrap md:space-x-2 lg:flex-wrap">
             <Filter setCategory={setCategory} />
             <InfoCard
+              mektup={mektup.length}
+              hatirat={hatirat.length}
+              siir={siir.length}
               kronik={kronik.length}
               seyahatname={seyahatname.length}
-              all={data.length}
+              all={apiData.length}
             />
           </div>
 

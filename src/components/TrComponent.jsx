@@ -13,8 +13,10 @@ const TrComponent = (data) => {
     translate,
     tur,
   } = data
+
   return (
     <tr className="text-gray-700 hover:bg-gray-100 ">
+
       <td className=" px-1 py-3">
         <div className="flex items-center text-sm">
           <div>
@@ -29,26 +31,35 @@ const TrComponent = (data) => {
           </div>
         </div>
       </td>
+
       <td className="px-1 py-3">
         {eser}
-        <span className="ml-2 inline-block rounded-sm bg-yellow-300 p-1 text-xs text-black">
+        <span className="ml-2 inline-block rounded-sm bg-yellow-300 p-1 text-xs text-black opacity-25 hover:opacity-100">
           {tur}
         </span>
       </td>
       {/* <td className=" py-3 text-xs"></td> */}
 
-      <td className="px-1 py-3 text-xs">
-        <span className="rounded-sm bg-indigo-100 p-1 font-semibold leading-tight text-indigo-700">
-          {periyod}
-        </span>
+      <td className="px-1 py-3 text-xs space-y-1">
+        {periyod.map((item, index) => (
+          <button
+            key={index}
+            className="rounded-sm block bg-indigo-100 p-1 font-semibold leading-tight text-indigo-700">
+            {item}
+          </button>
+        ))}
       </td>
+
       <td className=" px-1 py-3 text-sm">
         {bolge.map((item, index) => (
           <p key={index}>{item}</p>
         ))}
       </td>
+      
       <td className=" px-1 py-3 text-xs">
-        <span className='border border-black p-1 rounded-full text-xs'>{dil}</span>
+        <span className="rounded-full border border-black p-1 text-xs">
+          {dil}
+        </span>
       </td>
 
       <td className=" px-2 py-3 text-sm">
@@ -66,16 +77,16 @@ const TrComponent = (data) => {
         ))}
       </td>
 
-      <div className="max-h-40 overflow-y-auto  ">
-        <td className="   py-2 text-sm">
+      <div className="max-h-40 overflow-y-auto">
+        <td className="py-2 text-sm">
           {translate.map((item, index) => (
             <div className="ml-2 pt-1 ">
-              <span className="">
+              <span>
                 <a
                   key={index}
                   className="m-1 block p-1 text-blue-500 "
                   href={item.link}>
-                  {item.durum}{' '}
+                  {item.durum}
                 </a>
               </span>
             </div>
@@ -83,7 +94,7 @@ const TrComponent = (data) => {
         </td>
       </div>
 
-      <td className="  py-3 text-xs">
+      <td className="py-3 text-xs">
         {katki.map((item, index) => (
           <p key={index}>{item}</p>
         ))}
