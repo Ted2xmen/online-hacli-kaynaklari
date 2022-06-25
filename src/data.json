@@ -10,7 +10,7 @@
     ],
     "eser": "Historia Ierosolimitana",
     "tur": "Kronik",
-    "periyod": "1095-1119",
+    "periyod": ["1095-1119"],
     "bolge": ["Anadolu", "Balkanlar", "Filistin", "Mısır", "Suriye"],
     "dil": "Latince",
     "edisyon": [
@@ -61,11 +61,42 @@
   },
 
   {
+    "name": "Ambroise",
+    "lang": [],
+    "eser": "L'Estoire de la Guerre Sainte",
+    "tur": "Şiir",
+    "periyod": ["1189-1192"],
+    "bolge": ["Filistin", "Suriye"],
+    "dil": "Eski Fransızca",
+    "edisyon": [
+      {
+        "name": "Paris",
+        "link": "https://gallica.bnf.fr/ark:/12148/bpt6k6517331f"
+      }
+    ],
+    "translate": [
+      {
+        "durum": "ING Tamamen",
+        "link": "http://www.worldcat.org/oclc/69184425"
+      },
+      {
+        "durum": "ING Tamamen",
+        "link": "http://www.worldcat.org/oclc/855537294"
+      },
+      {
+        "durum": "ING Tamamen",
+        "link": "http://www.worldcat.org/oclc/163165570"
+      }
+    ],
+    "katki": ["Abdurrahman Onur Çalışır"]
+  },
+
+  {
     "name": "Anna Komnene",
     "lang": [],
     "eser": "Aleksias / Aleksiad",
     "tur": "Kronik",
-    "periyod": "1095-1118",
+    "periyod": ["1095-1118"],
     "bolge": ["Anadolu", "Balkanlar", "Filistin", "Suriye"],
     "dil": "Eski Yunanca",
     "edisyon": [
@@ -112,11 +143,60 @@
   },
 
   {
+    "name": "Arnoldus Lubecensis",
+    "lang": [
+      {
+        "eng": "Arnold of Lübeck",
+        "fr": "Arnold de Lübeck",
+        "de": "Arnold von Lübeck"
+      }
+    ],
+    "eser": "Chronica Slavorum",
+    "tur": "Kronik",
+    "periyod": ["1172", "1187-92", "1198-98"],
+    "bolge": ["Anadolu", "Balkanlar", "Filistin", "Suriye"],
+    "dil": "Latince",
+    "edisyon": [
+      {
+        "name": "MGH SS. Rer. Germ. 14",
+        "link": "http://www.dmgh.de/mgh_ss_rer_germ_14"
+      },
+      {
+        "name": "MGH SS. 21",
+        "link": "https://www.dmgh.de/mgh_ss_21"
+      }
+    ],
+    "translate": [
+      {
+        "durum": "ING Tamamen",
+        "link": "http://www.worldcat.org/oclc/1124768748"
+      },
+      {
+        "durum": "ALM Tamamen",
+        "link": "https://books.google.com.tr/books?id=yTQAAAAAcAAJ"
+      },
+      {
+        "durum": "ALM Tamamen",
+        "link": "http://www.worldcat.org/oclc/1070782959"
+      },
+      {
+        "durum": "DAN Kısmen",
+        "link": "https://books.google.com.tr/books?id=ZGnTAAAAMAAJ"
+      },
+      {
+        "durum": "DAN Tamamen",
+        "link": "https://books.google.com.tr/books?id=D_YRAAAAYAAJ"
+      }
+    ],
+    "katki": ["Abdurrahman Onur Çalışır"]
+  },
+
+  {
     "name": "Azîmî",
     "lang": [],
     "eser": "Târîḫu’l-ʿAẓîmî",
     "tur": "Kronik",
-    "periyod": "1095-1143",
+    "periyod": ["1095-1143"],
     "bolge": ["Anadolu", "Balkanlar", "Filistin", "Mısır", "Suriye"],
     "dil": "Arapça",
     "edisyon": [
@@ -139,18 +219,18 @@
   },
 
   {
-    "name": "Albertus",
+    "name": "Baldricus Dolensis",
     "lang": [
       {
-        "eng": "Albert of Aachen",
-        "fr": "Albert d'Axis",
-        "de": "Albert von Aachen"
+        "eng": "Baldric of Dol",
+        "fr": "Baudri de Bourgueil",
+        "de": "Balderich von Bourgueil"
       }
     ],
-    "eser": "Lerosolimitana",
-    "tur": "Seyahatname",
-    "periyod": "1095-1120",
-    "bolge": ["Anadolu", "Balkanlar", "Filistin", "Mısır", "Suriye"],
+    "eser": "Historia Ierosolimitana",
+    "tur": "Kronik",
+    "periyod": ["1095-99"],
+    "bolge": ["Anadolu", "Balkanlar", "Filistin", "Suriye"],
     "dil": "Latince",
     "edisyon": [
       {
@@ -158,24 +238,145 @@
         "link": "https://archive.org/details/patrologiaecurs11goog"
       },
       {
-        "name": "RHC HOc 4 Edgington",
-        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+        "name": "RHC HOc. 4",
+        "link": "https://gallica.bnf.fr/ark:/12148/bpt6k515745"
+      },
+      {
+        "name": "Biddlecombe",
+        "link": "http://www.worldcat.org/oclc/893043576"
       }
     ],
     "translate": [
       {
-        "durum": "TR Kısmen",
-        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
-      },
-      {
         "durum": "ING Tamamen",
-        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
-      },
-      {
-        "durum": "ING Tamamen",
-        "link": "https://www.worldcat.org/title/historia-ierosolimitana-history-of-the-journey-to-jerusalem/oclc/912611327"
+        "link": "http://www.worldcat.org/oclc/1105942894"
       }
     ],
-    "katki": ["Şafak Efe", "Abdurrahman Onur Çalışır"]
+    "katki": ["Abdurrahman Onur Çalışır"]
+  },
+
+  {
+    "name": "Bar Ebroyo",
+    "lang": [
+      {
+        "eng": "Gregory Bar Habraeus",
+        "ar": "Ebü'l-Ferec İbnü'l-İbrî"
+      }
+    ],
+    "eser": "Makhtebhanūth zabhne",
+    "tur": "Kronik",
+    "periyod": ["1097-1286"],
+    "bolge": ["Anadolu", "Filistin", "Mısır", "Suriye"],
+    "dil": "K. Sür.",
+    "edisyon": [
+      {
+        "name": "Bedjan",
+        "link": "https://books.google.com.tr/books?id=zgAVAAAAYAAJ"
+      }
+    ],
+    "translate": [
+      {
+        "durum": "TR Kısmen A",
+        "link": "http://www.worldcat.org/oclc/984436456"
+      },
+      {
+        "durum": "TR Kısmen B",
+        "link": "http://www.worldcat.org/oclc/984493171"
+      },
+      {
+        "durum": "ING Tamamen A",
+        "link": "https://books.google.com.tr/books?id=DVcZAAAAIAAJ"
+      },
+      {
+        "durum": "ING Tamamen B",
+        "link": "https://books.google.com.tr/books?id=GRgDAAAAMAAJ"
+      },
+      {
+        "durum": "FR Tamamen",
+        "link": "http://www.worldcat.org/oclc/867393398"
+      }
+    ],
+    "katki": ["Abdurrahman Onur Çalışır"]
+  },
+
+  {
+    "name": "Binyamin, Tudelalı",
+    "lang": [
+      {
+        "eng": "Benjamin of Tudela",
+        "fr": "Benjamin de Tudèle",
+        "de": "Benjamin von Tudela"
+      }
+    ],
+    "eser": "Masa’ot Binyamin / Seferha-Masa’ot",
+    "tur": "Seyahatname",
+    "periyod": ["1165-73"],
+    "bolge": ["Anadolu", "Filistin", "Mısır", "Suriye"],
+    "dil": "İbr.",
+    "edisyon": [
+      {
+        "name": "Asher",
+        "link": "https://archive.org/details/itineraryofrabb01benj"
+      },
+      {
+        "name": "Adler",
+        "link": "https://archive.org/details/the-itinerary-of-benjamin-of-tudela"
+      }
+    ],
+    "translate": [
+      {
+        "durum": "TR Tamamen",
+        "link": "http://www.worldcat.org/oclc/949573650"
+      },
+      {
+        "durum": "ING Tamamen A",
+        "link": "https://archive.org/details/itineraryofrabb01benj"
+      },
+      {
+        "durum": "ING Tamamen B",
+        "link": "https://archive.org/details/itineraryofrabb02ben"
+      },
+      {
+        "durum": "ING Tamamen",
+        "link": "https://archive.org/details/the-itinerary-of-benjamin-of-tudela"
+      },
+      {
+        "durum": "ING Tamamen",
+        "link": "http://www.worldcat.org/oclc/489730023"
+      },
+      {
+        "durum": "FR Tamamen",
+        "link": "https://gallica.bnf.fr/ark:/12148/bpt6k6574508m"
+      },
+      {
+        "durum": "FR Tamamen",
+        "link": "http://www.worldcat.org/oclc/470161741"
+      },
+      {
+        "durum": "ALM Kısmen",
+        "link": "http://www.worldcat.org/oclc/24143527"
+      },
+      {
+        "durum": "ALM Tamamen",
+        "link": "http://www.worldcat.org/oclc/32840956"
+      },
+      {
+        "durum": "ISP Tamamen",
+        "link": "http://www.worldcat.org/oclc/458416460"
+      },
+      {
+        "durum": "ISP Tamamen",
+        "link": "http://www.worldcat.org/oclc/34032882"
+      },
+      {
+        "durum": "IBR Tamamen",
+        "link": "http://www.worldcat.org/oclc/34032882"
+      },
+      {
+        "durum": "BASK Kısmen",
+        "link": "http://www.worldcat.org/oclc/34032882"
+      }
+    ],
+    "katki": ["Onuralp Çakır", "Abdurrahman Onur Çalışır"]
   }
 ]

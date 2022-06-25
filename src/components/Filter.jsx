@@ -12,6 +12,10 @@ const Filter = ({ setCategory }) => {
       label: 'Şiir',
       value: 'Kronik',
     },
+    {
+      label: 'Seyahatname',
+      value: 'Seyahatname',
+    },
   ]
 
   const handleFilter = (e) => {

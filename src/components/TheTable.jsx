@@ -6,19 +6,21 @@ import data from '.././data.json'
 import Filter from './Filter'
 import InfoCard from './InfoCard'
 import axios from 'axios'
+// import localData from '../data.json' if you want to use local data
 
 const TheTable = () => {
   const [searchTerm, setSearchTerm] = useState('')
   const [category, setCategory] = useState('')
   const [apiData, setData] = useState([])
 
-  const getData = async () => {
-    const apiData = await axios.get(
+
+  useEffect(() => {
+      const getData = async () => {
+    const projectData = await axios.get(
       `https://onlinehaclikaynaklari.github.io/hacli-kaynaklari-projesi-verileri/data.json`
     )
-    setData(apiData.data)
+    setData(projectData.data)
   }
-  useEffect(() => {
     getData()
   }, [])
 

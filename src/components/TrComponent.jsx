@@ -16,16 +16,16 @@ const TrComponent = (data) => {
 
   return (
     <tr className="text-gray-700 hover:bg-gray-100 ">
-
       <td className=" px-1 py-3">
         <div className="flex items-center text-sm">
           <div>
             <p className="text-base font-bold uppercase text-black">{name}</p>
             {lang.map((item, index) => (
               <div key={index} className="ml-2 pt-2">
-                <span className="block">🏴󠁧󠁢󠁥󠁮󠁧󠁿 {item.eng}</span>
-                <span className="block">🇫🇷 {item.fr}</span>
-                <span className="block">🇩🇪 {item.de}</span>
+                <span className="block text-xs">🏴󠁧󠁢󠁥󠁮󠁧󠁿 {item.eng}</span>
+                <span className="block text-xs">🇫🇷 {item.fr}</span>
+                <span className="block text-xs">🇩🇪 {item.de}</span>
+                <span className="block text-xs">🇦🇪 {item.ar}</span>
               </div>
             ))}
           </div>
@@ -38,13 +38,12 @@ const TrComponent = (data) => {
           {tur}
         </span>
       </td>
-      {/* <td className=" py-3 text-xs"></td> */}
 
-      <td className="px-1 py-3 text-xs space-y-1">
+      <td className="space-y-1 px-1 py-3 text-xs">
         {periyod.map((item, index) => (
           <button
             key={index}
-            className="rounded-sm block bg-indigo-100 p-1 font-semibold leading-tight text-indigo-700">
+            className="block rounded-sm bg-indigo-100 p-1 font-semibold leading-tight text-indigo-700">
             {item}
           </button>
         ))}
@@ -55,21 +54,18 @@ const TrComponent = (data) => {
           <p key={index}>{item}</p>
         ))}
       </td>
-      
-      <td className=" px-1 py-3 text-xs">
-        <span className="rounded-full border border-black p-1 text-xs">
-          {dil}
-        </span>
+
+      <td className=" px-0 py-2 text-xs">
+        <span className="text-xs  tracking-tight">{dil}</span>
       </td>
 
       <td className=" px-2 py-3 text-sm">
         {edisyon.map((item, index) => (
-          <p className="py-1">
+          <p className="py-1" key={index}>
             <a
-              key={index}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 underline"
+              className="tracking-tight text-blue-500 underline"
               href={item.link}>
               {item.name}
             </a>
@@ -80,16 +76,13 @@ const TrComponent = (data) => {
       <div className="max-h-40 overflow-y-auto">
         <td className="py-2 text-sm">
           {translate.map((item, index) => (
-            <div className="ml-2 pt-1 ">
-              <span>
-                <a
-                  key={index}
-                  className="m-1 block p-1 text-blue-500 "
-                  href={item.link}>
-                  {item.durum}
-                </a>
-              </span>
-            </div>
+            <span className="ml-2 pt-1" key={index}>
+              <a
+                className="m-1 block p-1 tracking-tight text-blue-500"
+                href={item.link}>
+                {item.durum}
+              </a>
+            </span>
           ))}
         </td>
       </div>
