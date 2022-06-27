@@ -6,7 +6,8 @@ import data from '.././data.json'
 import Filter from './Filter'
 import InfoCard from './InfoCard'
 import axios from 'axios'
-// import localData from '../data.json' if you want to use local data
+import localData from '../data.json' 
+// localdata if you want to use local data
 
 const TheTable = () => {
   const [searchTerm, setSearchTerm] = useState('')

@@ -25,6 +25,7 @@ const TrComponent = (data) => {
                 <span className="block text-xs">🏴󠁧󠁢󠁥󠁮󠁧󠁿 {item.eng}</span>
                 <span className="block text-xs">🇫🇷 {item.fr}</span>
                 <span className="block text-xs">🇩🇪 {item.de}</span>
+                <span className="block text-xs">🇮🇹 {item.it}</span>
                 <span className="block text-xs">🇦🇪 {item.ar}</span>
               </div>
             ))}

@@ -378,5 +378,106 @@
       }
     ],
     "katki": ["Onuralp Çakır", "Abdurrahman Onur Çalışır"]
+  },
+
+  {
+    "name": "Caffarus",
+    "lang": [
+      {
+        "it": "Caffaro di Rustico da Caschifellone"
+      }
+    ],
+    "eser": "Annales Ianuenses",
+    "tur": "Kronik",
+    "periyod": ["1099-1163"],
+    "bolge": ["İtalya", "Filistin", "Mısır", "Suriye"],
+    "dil": "Lat.",
+    "edisyon": [
+      {
+        "name": "FSI 1",
+        "link": "https://books.google.com.tr/books?id=oWIKAAAAIAAJ&hl"
+      }
+    ],
+    "translate": [
+      {
+        "durum": "ING Tamamen",
+        "link": "https://doi.org/10.4324/9781315570716"
+      }
+    ],
+    "katki": ["Abdurrahman Onur Çalışır"]
+  },
+
+  {
+    "name": "Caffarus",
+    "lang": [
+      {
+        "it": "Caffaro di Rustico da Caschifellone"
+      }
+    ],
+    "eser": "De Liberatione Civitatum Orientis",
+    "tur": "Kronik",
+    "periyod": ["1096-1109"],
+    "bolge": ["Anadolu", "Filistin", "Suriye"],
+    "dil": "Lat.",
+    "edisyon": [
+      {
+        "name": "RHC Hoc. 5",
+        "link": "https://gallica.bnf.fr/ark:/12148/bpt6k51575h"
+      },
+      {
+        "name": "FSI 11",
+        "link": "https://books.google.com.tr/books/about/Fonti_per_la_storia_d_Italia_pubblicate.html?id=TzMFvgAACAAJ"
+      }
+    ],
+    "translate": [
+      {
+        "durum": "ING Tamamen",
+        "link": "https://doi.org/10.4324/9781315570716"
+      }
+    ],
+    "katki": ["Abdurrahman Onur Çalışır"]
+  },
+
+  {
+    "name": "Caffarus",
+    "lang": [
+      {
+        "it": "Caffaro di Rustico da Caschifellone"
+      }
+    ],
+    "eser": "Ystoria Captionis Almarie et Turtuose",
+    "tur": "Kronik",
+    "periyod": ["1147-49"],
+    "bolge": ["Endülüs"],
+    "dil": "Lat.",
+    "edisyon": [
+      {
+        "name": "FSI 11",
+        "link": "https://books.google.com.tr/books/about/Fonti_per_la_storia_d_Italia_pubblicate.html?id=TzMFvgAACAAJ"
+      }
+    ],
+    "translate": [
+      {
+        "durum": "ING Tamamen",
+        "link": "https://doi.org/10.4324/9781315570716"
+      },
+      {
+        "durum": "ING Tamamen",
+        "link": "https://ims.leeds.ac.uk/wp-content/uploads/sites/29/2019/02/Caffaro-Almeria.pdf"
+      },
+      {
+        "durum": "ING Kısmen",
+        "link": "https://www.jstor.org/stable/j.ctt3fhhzb"
+      },
+      {
+        "durum": "IT Tamamen",
+        "link": "http://www.worldcat.org/oclc/888677574"
+      },
+      {
+        "durum": "ISP Tamamen",
+        "link": "http://www.worldcat.org/oclc/911734613"
+      }
+    ],
+    "katki": ["Abdurrahman Onur Çalışır"]
   }
 ]
