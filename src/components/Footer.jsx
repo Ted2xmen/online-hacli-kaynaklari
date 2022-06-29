@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const Footer = () => {
   return (
@@ -11,9 +13,7 @@ const Footer = () => {
                 Anasayfa
               </a>
 
-              <a className="hover:opacity-75" href="/about">
-                Hakkında
-              </a>
+              <Link to="about">Hakkında</Link>
 
               <a
                 className="hover:opacity-75"
