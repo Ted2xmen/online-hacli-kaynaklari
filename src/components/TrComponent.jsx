@@ -22,11 +22,21 @@ const TrComponent = (data) => {
             <p className="text-base font-bold uppercase text-black">{name}</p>
             {lang.map((item, index) => (
               <div key={index} className="ml-2 pt-2">
-                <span className="block text-xs">🏴󠁧󠁢󠁥󠁮󠁧󠁿 {item.eng}</span>
-                <span className="block text-xs">🇫🇷 {item.fr}</span>
-                <span className="block text-xs">🇩🇪 {item.de}</span>
-                <span className="block text-xs">🇮🇹 {item.it}</span>
-                <span className="block text-xs">🇦🇪 {item.ar}</span>
+                {item.eng ? (
+                  <span className="block text-xs">🏴󠁧󠁢󠁥󠁮󠁧󠁿 {item.eng} </span>
+                ) : null}
+                {item.fr ? (
+                  <span className="block text-xs">🇫🇷 {item.fr} </span>
+                ) : null}
+                {item.de ? (
+                  <span className="block text-xs">🇩🇪 {item.de} </span>
+                ) : null}
+                {item.it ? (
+                  <span className="block text-xs">🇮🇹 {item.it} </span>
+                ) : null}
+                {item.ar ? (
+                  <span className="block text-xs">🇦🇪 {item.ar} </span>
+                ) : null}
               </div>
             ))}
           </div>
@@ -60,7 +70,7 @@ const TrComponent = (data) => {
         <span className="text-xs  tracking-tight">{dil}</span>
       </td>
 
-      <td className=" px-2 py-3 text-sm">
+      <td className=" px-2 py-3 text-xs">
         {edisyon.map((item, index) => (
           <p className="py-1" key={index}>
             <a
@@ -75,12 +85,12 @@ const TrComponent = (data) => {
       </td>
 
       <div className="max-h-40 overflow-y-auto">
-        <td className="py-2 text-sm">
+        <td className="py-2 text-xs">
           {translate.map((item, index) => (
             <span className="ml-2 pt-1" key={index}>
               <a
                 className="m-1 block p-1 tracking-tight text-blue-500"
-                href={item.link}>
+                href={item.link} target="_blank" rel='noreferrer'>
                 {item.durum}
               </a>
             </span>

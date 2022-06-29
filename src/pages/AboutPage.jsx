@@ -1,11 +1,15 @@
 import HeaderHero from '../components/HeaderHero'
 import Footer from '../components/Footer'
+import { Helmet } from 'react-helmet'
 
 const AboutPage = () => {
   return (
     <>
+    <Helmet>
+      <title>Hakkında</title>
+    </Helmet>
       <HeaderHero />
-      <div className="mx-6 space-y-6 py-6 text-center text-lg lg:mx-24">
+      <div className="mx-12 space-y-6 py-6 text-center text-lg lg:mx-24">
         <p>
           Haçlı çalışmaları alanında araştırmacılar tarafından kullanılan
           çeşitli dillerdeki birincil kaynaklara hızlı ve kolay bir şekilde

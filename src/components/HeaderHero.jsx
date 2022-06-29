@@ -14,6 +14,16 @@ const HeaderHero = () => {
         <div className="space-x-6">
           <a
             className=" rounded-lg p-2 shadow hover:bg-blue-600 hover:text-white "
+            href="/">
+            Anasayfa
+          </a>
+          <a
+            className=" rounded-lg p-2 shadow hover:bg-blue-600 hover:text-white "
+            href="/about">
+            Hakkında
+          </a>
+          <a
+            className=" rounded-lg p-2 shadow hover:bg-blue-600 hover:text-white "
             target="_blank"
             rel="noopener noreferrer"
             href="https://twitter.com/haclikaynaklari">

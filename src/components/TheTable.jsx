@@ -14,7 +14,6 @@ const TheTable = () => {
   const [category, setCategory] = useState('')
   const [apiData, setData] = useState([])
 
-
   useEffect(() => {
       const getData = async () => {
     const projectData = await axios.get(

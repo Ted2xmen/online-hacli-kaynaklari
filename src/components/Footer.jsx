@@ -11,6 +11,10 @@ const Footer = () => {
                 Anasayfa
               </a>
 
+              <a className="hover:opacity-75" href="/about">
+                Hakkında
+              </a>
+
               <a
                 className="hover:opacity-75"
                 target="_blank"
