@@ -1,3 +1,6 @@
+import Nav from "../pages/Nav"
+
+
 const HeaderHero = () => {
   return (
     <div className="max-w-screen-xl mx-auto bg-slate-100 px-4 py-20 lg:flex  lg:items-center">
@@ -12,7 +15,7 @@ const HeaderHero = () => {
         </p>
 
         <div className="space-x-6">
-          <a
+          {/* <a
             className=" rounded-lg p-2 shadow hover:bg-blue-600 hover:text-white "
             href="/">
             Anasayfa
@@ -21,9 +24,10 @@ const HeaderHero = () => {
             className=" rounded-lg p-2 shadow hover:bg-blue-600 hover:text-white "
             href="/about">
             Hakkında
-          </a>
+          </a> */}
+          <Nav />
           <a
-            className=" rounded-lg p-2 shadow hover:bg-blue-600 hover:text-white "
+            className="rounded-lg p-2 shadow hover:bg-blue-600 hover:text-white "
             target="_blank"
             rel="noopener noreferrer"
             href="https://twitter.com/haclikaynaklari">
