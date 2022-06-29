@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <div className="ml-6 flex space-x-4 text-xl font-bold">
       <Link to="/">Anasayfa </Link>
-      <Link to="about"> Hakkında</Link>
+      <Link to="about"> Hakkımızda</Link>
     </div>
   )
 }
